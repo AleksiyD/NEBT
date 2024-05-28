@@ -12,7 +12,7 @@
 		
         <link rel="icon" href="{{ asset('img/favicon.png') }}">
 		
-		<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+		<link href="{{ asset('css/gfonts.css') }}" rel="stylesheet">
 
 		<link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 		<link rel="stylesheet" href="{{ asset('css/nice-select.css') }}">
@@ -28,14 +28,18 @@
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
+		<link rel="shortcut icon" href="{{ asset('img/favicon/favicon.ico') }}" type="image/x-icon" />
+		<link rel="icon" type="image/png" href="{{ asset('img/favicon/favicon-16x16.png') }}" sizes="16x16">
+		<link rel="icon" type="image/png" href="{{ asset('img/favicon/favicon-32x32.png') }}" sizes="32x32">
+		<link rel="icon" type="image/png" href="{{ asset('img/favicon/android-chrome-192x192.png') }}" sizes="192x192">
+		<link rel="icon" type="image/png" href="{{ asset('img/favicon/android-chrome-512x512.png') }}" sizes="512x512">
+
         @stack('style')
     </head>
     <body>
         @include('layouts.header')
 		
         @yield('content')
-
-        @include('layouts.temp')
 		
         @include('layouts.footer')
 		

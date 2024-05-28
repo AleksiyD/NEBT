@@ -3,4 +3,6 @@
 
 @section('content')
 
+@include('layouts.temp')
+
 @endsection

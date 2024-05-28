@@ -309,7 +309,9 @@ body{
 }
 .header .logo {
 	float: left;
-	margin-top: 18px;
+	/* margin-top: 18px; */
+	color: #1f618d;
+	font-weight: 700;
 }
 .header .navbar {
 	background: none;
