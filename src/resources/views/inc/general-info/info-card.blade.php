@@ -3,7 +3,8 @@
     <div class="single-schedule h-100">
         <div class="inner">
             <div class="single-content">
-                <h4>{{ $title }}</h4>
+                <h4 class="w-100 text-center">{{ $title }}</h4>
+                <hr>
                 <p>{{ $text }}</p>
             </div>
         </div>
