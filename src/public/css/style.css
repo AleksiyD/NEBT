@@ -845,19 +845,8 @@ body{
 .Feautes .single-features{
 	text-align:center;
 	position:relative;
-	padding:10px 20px;
 }
-.Feautes .single-features::before {
-	position: absolute;
-	content: "";
-	right: -72px;
-	top: 60px;
-	width: 118px;
-	border-bottom: 3px dotted #1a76d1;
-}
-.Feautes .single-features.last::before{
-	display:none;
-}
+
 .Feautes .single-features .signle-icon{
 	position:relative;
 }
@@ -884,7 +873,7 @@ body{
 	border-color:transparent;
 }
 .Feautes .single-features h3{
-	padding-top: 128px;
+	padding-top: 20px;
 	color:#2C2D3F;
 	font-weight:600;
 	font-size:21px;
@@ -1717,7 +1706,7 @@ body{
 	Start Clients CSS
 ==========================*/
 .clients{
-	background-image:url('../img/client-bg.jpg');
+	background-image:url('../img/bg-texture.png');
 	background-size:cover;
 	background-position:center;
 	padding:100px 0px;
@@ -4175,4 +4164,16 @@ body{
 
 .btn {
 	text-transform: none;
+}
+
+.section-title p {
+	font-size: 20px;
+}
+
+.shadow {
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.rounded {
+	border-radius: .25rem !important;
 }

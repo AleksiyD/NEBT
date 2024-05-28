@@ -25,6 +25,7 @@
         ])
     @endforeach
 @endcomponent
+@include('inc.about-us.section')
 
 @include('layouts.temp')
 
