@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-lg-2 col-12">
                         <div class="get-quote">
-                            <a href="appointment.html" class="btn">Обратная связь</a>
+                            <a href="" class="btn">Обратная связь</a>
                         </div>
                     </div>
                 </div>
