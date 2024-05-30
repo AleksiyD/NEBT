@@ -9,7 +9,7 @@
                             <p class="font-weight-bold text-light h5">Ваш надежный партнер по созданию инновационных решений в технологиях пищевой промышленности</p>
                             <div class="button">
                                 <a href="#" class="btn">Обратная связь</a>
-                                <a href="#" class="btn primary">Контакты</a>
+                                <a href="#footer" class="btn primary">Контакты</a>
                             </div>
                         </div>
                     </div>
