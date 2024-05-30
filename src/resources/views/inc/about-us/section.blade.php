@@ -1,4 +1,4 @@
-<section class="Feautes section">
+<section class="about-us section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -10,7 +10,7 @@
         </div>
         <div class="d-flex justify-content-center">
             <div class="col-lg-5 col-12">
-                <div class="single-features shadow rounded">
+                <div class="single-about-us shadow rounded">
                     <div class="signle-icon">
                         <img class="icofont icofont-ambulance-cross" src="{{ asset('img/content/gen-dir.jpg') }}"></img>
                     </div>

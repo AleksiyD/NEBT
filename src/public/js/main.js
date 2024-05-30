@@ -14,7 +14,7 @@ Version:	1.1
 * Hero Slider JS
 * Testimonial Slider JS
 * Portfolio Slider JS
-* Clients Slider JS
+* about-us-slider Slider JS
 * Single Portfolio Slider JS
 * Accordion JS
 * Nice Select JS
@@ -144,9 +144,9 @@ Version:	1.1
 		});
 		
 		/*===============================
-			Clients Slider JS
+			about-us-slider Slider JS
 		=================================*/ 
-		$('.clients-slider').owlCarousel({
+		$('.about-us-slider-slider').owlCarousel({
 			items:2,
 			autoplay:true,
 			autoplayTimeout:3500,

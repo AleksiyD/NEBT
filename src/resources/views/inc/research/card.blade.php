@@ -1,11 +1,15 @@
-<li class="list-group-item">
-    <div class="media align-items-lg-center flex-column flex-lg-row p-3">
-        <div class="media-body order-2 order-lg-1">
-        <h5 class="mt-0 font-weight-bold mb-2">{{ $title }}</h5>
-        <p class="font-italic text-muted mb-0 small">{{ $text }}</p>
-        <div class="d-flex align-items-center justify-content-between mt-1">
-            <a class="btn text-light" href="{{ $href }}">Подробнее</a>
+<div class="card col-md-12 p-3 mb-1 rounded shadow">
+    <div class="row ">
+        <div class="col-md-4">
+            <img class="w-100" width="200" src="{{ asset($img) }}">
         </div>
-        </div><img src="{{ asset($img) }}" alt="Generic placeholder image" width="200" class="ml-lg-5 order-1 order-lg-2">
+        <div class="col-md-8">
+            <div class="card-block">
+                <h6 class="card-title">
+                    <a href="{{ $href }}" target="_blank" rel="noopener noreferrer">{{ $title }}</a>
+                </h6>
+                <p class="card-text text-justify">{{ $text }}</p>
+            </div>
+        </div>
     </div>
-</li>
+</div>

@@ -11,9 +11,7 @@
 
 <div class="row">
   <div class="col-lg-8 mx-auto">
-    <ul class="list-group shadow">
         {{ $slot }}
-    </ul>
   </div>
 </div>
 </div>

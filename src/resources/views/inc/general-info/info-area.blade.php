@@ -1,6 +1,6 @@
-<section class="schedule">
+<section class="info-card">
     <div class="container">
-        <div class="schedule-inner">
+        <div class="info-card-inner">
             <div class="row">
                 {{ $slot }}
             </div>

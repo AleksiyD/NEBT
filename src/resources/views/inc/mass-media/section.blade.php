@@ -1,4 +1,4 @@
-<section class="pricing-table section">
+<section class="mass-media section">
 		    <div class="container">
 		        <div class="row">
 		            <div class="col-lg-12">

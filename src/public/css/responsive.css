@@ -126,7 +126,7 @@ Version:	1.1
 .slider .single-slider {
 	height: 380px;
 }
-.schedule {
+.info-card {
 	background: #fff;
 	margin: 0;
 	padding: 0;
@@ -134,10 +134,10 @@ Version:	1.1
 	padding: 70px 0;
 	border-bottom:1px solid #eee;
 }
-.schedule .schedule-inner {
+.info-card .info-card-inner {
 	transform: none;
 }
-.schedule .single-schedule.last{
+.info-card .single-info-card.last{
 	margin-top:30px;
 }
 .slider .single-slider{
@@ -170,13 +170,13 @@ Version:	1.1
 	line-height: 40px;
 	border-radius: 4px;
 }
-.Feautes.index2 {
+.about-us.index2 {
 	padding-top: 70px;
 }
-.Feautes .single-features::before {
+.about-us .single-about-us::before {
 	display:none;
 }
-.Feautes .single-features {
+.about-us .single-about-us {
 	text-align: center;
 	position: relative;
 	padding: 10px 155px;
@@ -188,7 +188,7 @@ Version:	1.1
 .fun-facts .single-fun {
 	margin: 20px 0;
 }
-.why-choose .choose-right {
+.about-us-more .choose-right {
 	height: 350px;
 	margin-top: 30px;
 }
@@ -275,7 +275,7 @@ Version:	1.1
 .appointment.single-page .work-hour {
 	margin-top: 30px;
 }
-.blog .single-news {
+.development .single-news {
 	margin: 15px 0;
 }
 .news-single .single-main {
@@ -574,7 +574,7 @@ Version:	1.1
 .slider .single-slider {
 	height: 380px;
 }
-.schedule {
+.info-card {
 	background: #fff;
 	margin: 0;
 	padding: 0;
@@ -582,10 +582,10 @@ Version:	1.1
 	padding: 50px 0;
 	border-bottom:1px solid #eee;
 }
-.schedule .schedule-inner {
+.info-card .info-card-inner {
 	transform: none;
 }
-.schedule .single-schedule{
+.info-card .single-info-card{
 	margin:15px 0;
 }
 .slider .single-slider{
@@ -618,10 +618,10 @@ Version:	1.1
 	line-height: 40px;
 	border-radius: 4px;
 }
-.Feautes.index2 {
+.about-us.index2 {
 	padding-top: 50px;
 }
-.Feautes .single-features .signle-icon i {
+.about-us .single-about-us .signle-icon i {
 	font-size: 42px;
 	left: 50%;
 	margin-left: -40px;
@@ -629,16 +629,16 @@ Version:	1.1
 	width: 80px;
 	line-height: 80px;
 }
-.Feautes .single-features::before {
+.about-us .single-about-us::before {
 	display:none;
 }
-.Feautes .single-features {
+.about-us .single-about-us {
 	text-align: center;
 	position: relative;
 	padding:0px;
 	margin: 15px 0;
 }
-.Feautes .single-features h3 {
+.about-us .single-about-us h3 {
 	padding-top: 105px;
 	font-size: 20px;
 }
@@ -664,7 +664,7 @@ Version:	1.1
 .fun-facts .single-fun .content {
 	padding:0;
 }
-.why-choose .choose-right {
+.about-us-more .choose-right {
 	height: 350px;
 	margin-top: 30px;
 }
@@ -757,7 +757,7 @@ Version:	1.1
 .appointment.single-page .work-hour {
 	margin-top: 30px;
 }
-.blog .single-news {
+.development .single-news {
 	margin: 15px 0;
 }
 .news-single .single-main {
@@ -818,7 +818,7 @@ Version:	1.1
 	left: 0;
 	top: 0;
 }
-.news-single .blog-comments {
+.news-single .development-comments {
 	padding: 15px;
 }
 .news-single .comments-form {
@@ -1062,7 +1062,7 @@ Version:	1.1
 .slider .single-slider {
 	height: 380px;
 }
-.schedule {
+.info-card {
 	background: #fff;
 	margin: 0;
 	padding: 0;
@@ -1070,10 +1070,10 @@ Version:	1.1
 	padding: 50px 0;
 	border-bottom:1px solid #eee;
 }
-.schedule .schedule-inner {
+.info-card .info-card-inner {
 	transform: none;
 }
-.schedule .single-schedule{
+.info-card .single-info-card{
 	margin:15px 0;
 }
 .slider .single-slider{
@@ -1111,7 +1111,7 @@ Version:	1.1
 .slider .owl-carousel .owl-nav {
 	display:none;
 }
-.Feautes .single-features .signle-icon i {
+.about-us .single-about-us .signle-icon i {
 	font-size: 42px;
 	left: 50%;
 	margin-left: -40px;
@@ -1119,16 +1119,16 @@ Version:	1.1
 	width: 80px;
 	line-height: 80px;
 }
-.Feautes .single-features::before {
+.about-us .single-about-us::before {
 	display:none;
 }
-.Feautes .single-features {
+.about-us .single-about-us {
 	text-align: center;
 	position: relative;
 	padding:0px;
 	margin: 15px 0;
 }
-.Feautes .single-features h3 {
+.about-us .single-about-us h3 {
 	padding-top: 105px;
 	font-size: 20px;
 }
@@ -1154,7 +1154,7 @@ Version:	1.1
 .fun-facts .single-fun .content {
 	padding:0;
 }
-.why-choose .choose-right {
+.about-us-more .choose-right {
 	height: 350px;
 	margin-top: 30px;
 }
@@ -1227,7 +1227,7 @@ Version:	1.1
 .appointment.single-page .appointment-inner {
 	padding: 25px;
 }
-.blog .single-news {
+.development .single-news {
 	margin: 15px 0;
 }
 .newsletter .subscribe-text {

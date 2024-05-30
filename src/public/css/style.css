@@ -15,8 +15,8 @@ Version:	1.1
 	+ Main Menu
 	+ Search
 * Hero Slider CSS
-* Schedule CSS
-* Feautes CSS
+* info-card CSS
+* about-us CSS
 * Fun Facts CSS
 * Why Choose CSS
 * Call to Action CSS
@@ -26,13 +26,13 @@ Version:	1.1
 * Testimonials CSS
 * Departments CSS
 * Pricing Table CSS
-* Clients CSS
+* about-us-slider CSS
 * Team CSS
 	+ Single Team
-* Blog CSS
-	+ Latest Blog CSS
-	+ Blog Single CSS
-	+ Blog Sidebar CSS
+* development CSS
+	+ Latest development CSS
+	+ development Single CSS
+	+ development Sidebar CSS
 * Appointment CSS
 * Login CSS
 * Register CSS
@@ -54,7 +54,7 @@ body{
 	font-size:14px;
 	color:#888;
 }
-.pro-features {
+.pro-about-us {
 	position: fixed;
 	right: -300px;
 	width: 300px;
@@ -74,21 +74,21 @@ body{
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
-.pro-features.active{
+.pro-about-us.active{
 	right:0;
 }
-.pro-features li.big-title {
+.pro-about-us li.big-title {
 	font-weight: 600;
 	color: #1A76D1;
 	font-size: 15px;
 }
-.pro-features li.title {
+.pro-about-us li.title {
 	font-weight: 600;
 	color: #1A76D1;
 	font-size: 15px;
 }
-.pro-features .button{}
-.pro-features .button .btn {
+.pro-about-us .button{}
+.pro-about-us .button .btn {
 	width: 100%;
 	text-align: center;
 	margin-top: 8px;
@@ -98,7 +98,7 @@ body{
 	width: 100%;
 	text-transform: capitalize;
 }
-.pro-features li {
+.pro-about-us li {
 	color: #333;
 	margin: 0;
 	padding: 0;
@@ -689,20 +689,20 @@ body{
 =============================*/
 
 /*=============================
-	Start Schedule CSS
+	Start info-card CSS
 ===============================*/
-.schedule {
+.info-card {
 	background: #fff;
 	margin: 0;
 	padding: 0;
 	height: 230px;
 }
-.schedule .schedule-inner {
+.info-card .info-card-inner {
 	position: relative;
 	transform: translateY(-50%);
 	z-index:9;
 }
-.schedule .single-schedule {
+.info-card .single-info-card {
 	position: relative;
 	text-align: left;
 	z-index:3;
@@ -714,13 +714,13 @@ body{
     -o-transition: all .3s ease-out 0s;
     transition: all .3s ease-out 0s;
 }
-.schedule .single-schedule .inner {
+.info-card .single-info-card .inner {
 	overflow:hidden;
 	position: relative;
 	padding:30px;
 	z-index:2;
 }
-.schedule .single-schedule:before{
+.info-card .single-info-card:before{
 	position: absolute;
     z-index: -1;
     content: '';
@@ -739,13 +739,13 @@ body{
     -o-transition: all .3s ease-out 0s;
     transition: all .3s ease-out 0s;
 }
-.schedule .single-schedule:hover:before{
+.info-card .single-info-card:hover:before{
 	opacity: 0.8;
 }
-.schedule .single-schedule:hover{
+.info-card .single-info-card:hover{
 	transform: translateY(-5px);
 }
-.schedule .single-schedule .icon i{
+.info-card .single-info-card .icon i{
 	position: absolute;
 	font-size: 110px;
 	color: #fff;
@@ -760,11 +760,11 @@ body{
 	right: -25px;
 	bottom: -30px;
 }
-.schedule .single-schedule span{
+.info-card .single-info-card span{
 	display:block;
 	color:#fff;
 }
-.schedule .single-schedule h4{
+.info-card .single-info-card h4{
 	font-size: 20px;
 	font-weight:600;
 	display:inline-block;
@@ -772,18 +772,18 @@ body{
 	color:#fff;
 	margin-top:13px;
 }
-.schedule .single-schedule p{
+.info-card .single-info-card p{
 	color:#fff;
 	margin-top:22px;
 }
-.schedule .single-schedule a {
+.info-card .single-info-card a {
 	color: #fff;
 	margin-top: 25px;
 	font-weight: 500;
 	display: inline-block;
 	position: relative;
 }
-.schedule .single-schedule a:before{
+.info-card .single-info-card a:before{
 	position:absolute;
 	content:"";
 	left:0;
@@ -795,62 +795,62 @@ body{
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
-.schedule .single-schedule a:hover:before{
+.info-card .single-info-card a:hover:before{
 	width:100%;
 	width:100%;
 }
-.schedule .single-schedule a i{
+.info-card .single-info-card a i{
 	margin-left:10px;
 }
-.schedule .single-schedule .time-sidual{
+.info-card .single-info-card .time-sidual{
 	
 }
-.schedule .single-schedule .time-sidual{
+.info-card .single-info-card .time-sidual{
 	overflow:hidden;
 	margin-top:17px;
 }
-.schedule .single-schedule .time-sidual li {
+.info-card .single-info-card .time-sidual li {
 	display: block;
 	color: #fff;
 	width: 100%;
 	margin-bottom:3px;
 }
-.schedule .single-schedule .time-sidual li:last-child{
+.info-card .single-info-card .time-sidual li:last-child{
 	margin:0;
 }
-.schedule .single-schedule .time-sidual li span{
+.info-card .single-info-card .time-sidual li span{
 	display:inline-block;
 	float:right;
 }
-.schedule .single-schedule .day-head .time {
+.info-card .single-info-card .day-head .time {
 	font-weight: 400;
 	float: right;
 }
 /*=============================
-	End Schedule CSS
+	End info-card CSS
 ===============================*/
 
 /*=============================
-	Start Feautes CSS
+	Start about-us CSS
 ===============================*/
-.Feautes{
+.about-us{
 	padding-top:0;
 }
-.Feautes.index2{
+.about-us.index2{
 	padding-top:100px;
 }
-.Feautes.testimonial-page{
+.about-us.testimonial-page{
 	padding-top:100px;
 }
-.Feautes .single-features{
+.about-us .single-about-us{
 	text-align:center;
 	position:relative;
 }
 
-.Feautes .single-features .signle-icon{
+.about-us .single-about-us .signle-icon{
 	position:relative;
 }
-.Feautes .single-features .signle-icon i{
+.about-us .single-about-us .signle-icon i{
 	font-size:50px;
 	color:#1a76d1;
 	position:absolute;
@@ -867,22 +867,22 @@ body{
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
-.Feautes .single-features:hover .signle-icon i{
+.about-us .single-about-us:hover .signle-icon i{
 	background:#1A76D1;
 	color:#fff;
 	border-color:transparent;
 }
-.Feautes .single-features h3{
+.about-us .single-about-us h3{
 	padding-top: 20px;
 	color:#2C2D3F;
 	font-weight:600;
 	font-size:21px;
 }
-.Feautes .single-features p {
+.about-us .single-about-us p {
 	margin-top: 20px;
 }
 /*=============================
-	End Feautes CSS
+	End about-us CSS
 ===============================*/
 
 /*=======================
@@ -954,7 +954,7 @@ body{
 /*===================
 	Why choose CSS
 =====================*/
-.why-choose .choose-left h3{
+.about-us-more .choose-left h3{
 	font-size:24px;
 	font-weight:600;
 	color:#2C2D3F;
@@ -962,7 +962,7 @@ body{
 	padding-bottom:20px;
 	margin-bottom:24px;
 }
-.why-choose .choose-left h3:before{
+.about-us-more .choose-left h3:before{
 	position:absolute;
 	content:"";
 	left:0;
@@ -971,18 +971,18 @@ body{
 	width:50px;
 	background:#1a76d1;
 }
-.why-choose .choose-left p{
+.about-us-more .choose-left p{
 	margin-bottom:35px;
 }
-.why-choose .choose-left .list{}
-.why-choose .choose-left .list li {
+.about-us-more .choose-left .list{}
+.about-us-more .choose-left .list li {
 	color: #868686;
 	margin-bottom: 12px;
 }
-.why-choose .choose-left .list li:last-child{
+.about-us-more .choose-left .list li:last-child{
 	margin-bottom:0px;
 }
-.why-choose .choose-left .list li i{
+.about-us-more .choose-left .list li i{
 	height:15px;
 	width:15px;
 	line-height:15px;
@@ -995,15 +995,15 @@ body{
 	margin-right:16px;
 }
 /* Start Faq CSS */
-.why-choose{
+.about-us-more{
 	background:#fff;
 }
-.why-choose .choose-right{
+.about-us-more .choose-right{
 	height:100%;
 	width:100%;
 	position:relative;
 }
-.why-choose .choose-right .video {
+.about-us-more .choose-right .video {
 	color: #fff;
 	height: 70px;
 	width: 70px;
@@ -1019,10 +1019,10 @@ body{
 	background: #1a76d1;
 	padding-left: 4px;
 }
-.why-choose .choose-right .video:hover{
+.about-us-more .choose-right .video:hover{
 	transform:scale(1.1);
 }
-.why-choose .video-image .waves-block .waves {
+.about-us-more .video-image .waves-block .waves {
 	position: absolute;
 	width: 200px;
 	height: 200px;
@@ -1037,15 +1037,15 @@ body{
 	top: 50%;
 	margin-top: -100px;
 }
-.why-choose .video-image .waves-block .wave-1 {
+.about-us-more .video-image .waves-block .wave-1 {
     -webkit-animation-delay: 0s;
     animation-delay: 0s;
 }
-.why-choose .video-image .waves-block .wave-2 {
+.about-us-more .video-image .waves-block .wave-2 {
     -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
-.why-choose .video-image .waves-block .wave-3 {
+.about-us-more .video-image .waves-block .wave-3 {
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
@@ -1601,11 +1601,11 @@ body{
 /*=============================
 	Start Pricing Table CSS
 ===============================*/
-.pricing-table{
+.mass-media{
 	background:#f9f9f9;
 	position:relative;
 }
-.pricing-table .single-table {
+.mass-media .single-table {
 	background: #fff;
 	border:1px solid #ddd;
 	text-align: center;
@@ -1615,25 +1615,25 @@ body{
 	padding:45px 35px 30px 35px;
 }
 /* Table Head */
-.pricing-table .single-table .table-head {
+.mass-media .single-table .table-head {
 	text-align:center;
 }
-.pricing-table .single-table .icon i{
+.mass-media .single-table .icon i{
 	font-size:65px;
 	color:#1a76d1;
 }
-.pricing-table .single-table .title {
+.mass-media .single-table .title {
 	font-size: 21px;
 	color: #2C2D3F;
 	margin-top: 30px;
 	margin-bottom: 15px;
 }
-.pricing-table .single-table .amount {
+.mass-media .single-table .amount {
 	font-size:36px;
 	font-weight:600;
 	color:#1a76d1;
 }
-.pricing-table .single-table .amount span{
+.mass-media .single-table .amount span{
 	display:inline-block;
 	font-size:14px;
 	font-weight:400;
@@ -1641,25 +1641,25 @@ body{
 	margin-left:8px;
 }
 /* Table List */
-.pricing-table .single-table .table-list {
+.mass-media .single-table .table-list {
 	padding: 10px 0;
 	text-align: left;
 	margin-top: 30px;
 }
-.pricing-table .table-list li {
+.mass-media .table-list li {
 	position: relative;
 	color: #666;
 	text-transform: capitalize;
 	margin-bottom: 18px;
 	padding-right: 32px;
 }
-.pricing-table .table-list li:last-child{
+.mass-media .table-list li:last-child{
 	margin-bottom:0px;
 }
-.pricing-table .table-list li.cross i{
+.mass-media .table-list li.cross i{
 	background:#aaaaaa;
 }
-.pricing-table .table-list i {
+.mass-media .table-list i {
 	font-size: 7px;
 	text-align: center;
 	margin-right: 10px;
@@ -1676,21 +1676,21 @@ body{
 }
 
 /* Table Bottom */
-.pricing-table .table-bottom {
+.mass-media .table-bottom {
 	margin-top: 25px;
 }
-.pricing-table .btn {
+.mass-media .btn {
 	padding: 12px 25px;
 	width: 100%;
 	color:#fff;
 }
-.pricing-table .btn:before{
+.mass-media .btn:before{
 	background:#2C2D3F;
 }
-.pricing-table .btn:hover{
+.mass-media .btn:hover{
 	color:#fff;
 }
-.pricing-table .btn i {
+.mass-media .btn i {
 	font-size: 16px;
 	margin-right: 10px;
 }
@@ -1699,19 +1699,19 @@ body{
 ===============================*/
 
 /*========================
-	Start Clients CSS
+	Start about-us-slider CSS
 ==========================*/
-.clients{
+.about-us-slider{
 	background-image:url('../img/bg-texture.png');
 	background-size:cover;
 	background-position:center;
 	padding:100px 0px;
 	position:relative;
 }
-.clients .single-clients{
+.about-us-slider .single-about-us-slider{
 	
 }
-.clients .single-clients img {
+.about-us-slider .single-about-us-slider img {
 	width: 100%;
 	cursor: pointer;
 	text-align: center;
@@ -1719,7 +1719,7 @@ body{
 	padding: 0 35px;
 }
 /*========================
-	End Clients CSS
+	End about-us-slider CSS
 ==========================*/
 
 /*====================
@@ -1978,15 +1978,15 @@ body{
 ======================*/ 
 
 /*=======================
-	Start Blog CSS
+	Start development CSS
 =========================*/
-.blog{
-	background:#fff;
+.development{
+	background:#f9f9f9;
 }
-.blog .blog-title{
+.development .development-title{
 	text-align:center;
 }
-.blog .single-news {
+.development .single-news {
 	background: #fff;
 	position: relative;
 	-webkit-transition: all 0.4s ease;
@@ -1994,7 +1994,7 @@ body{
 	transition: all 0.4s ease;
 	box-shadow: 0px 0px 10px #00000014;
 }
-.blog .single-news img{
+.development .single-news img{
 	width:100%;
 	margin:0;
 	padding:0;
@@ -2002,11 +2002,11 @@ body{
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
-.blog .single-news .news-head{
+.development .single-news .news-head{
 	position:relative;
 	overflow:hidden;
 }
-.blog .single-news .news-content {
+.development .single-news .news-content {
 	text-align: left;
 	background: #fff;
 	z-index: 99;
@@ -2015,7 +2015,7 @@ body{
 	left: 0;
 	z-index: 0;
 }
-.blog .single-news .news-content:before{
+.development .single-news .news-content:before{
 	position:absolute;
 	content:"";
 	left:0;
@@ -2029,32 +2029,32 @@ body{
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
 }
-.blog .single-news:hover .news-content:before{
+.development .single-news:hover .news-content:before{
 	opacity:1;
 	visibility:visible;
 	width:100%;
 }
-.blog .single-news .news-body h2 {
+.development .single-news .news-body h2 {
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 10px;
 	line-height: 24px;
 }
-.blog .single-news .news-body h2 a{
+.development .single-news .news-body h2 a{
 	color:#2C2D3F;
 	font-weight: 500;
 }
-.blog .single-news .news-body h2 a:hover{
+.development .single-news .news-body h2 a:hover{
 	color:#1A76D1;
 }
-.blog .single-news .news-content p {
+.development .single-news .news-content p {
 	font-weight: 400;
 	text-transform: capitalize;
 	font-size: 13px;
 	letter-spacing: 0px;
 	line-height: 23px;
 }
-.blog .single-news .news-body .date {
+.development .single-news .news-body .date {
 	display: inline-block;
 	font-size: 14px;
 	margin-bottom: 5px;
@@ -2065,10 +2065,10 @@ body{
 	font-size: 14px;
 	margin-bottom: 10px;
 }
-.blog.grid .single-news{
+.development.grid .single-news{
 	margin-top:30px;
 }
-/* Blog Sidebar */
+/* development Sidebar */
 .main-sidebar {
 	background: #fff;
 	margin-top: 30px;
@@ -2233,7 +2233,7 @@ body{
 	display:inline-block;
 	margin-right:5px;
 }
-/* Blog Tags */
+/* development Tags */
 .main-sidebar .side-tags .tag{
 	margin-top:40px;
 }
@@ -2287,7 +2287,7 @@ body{
 .news-single .news-title a:hover {
 	color: #1A76D1;
 }
-/* Blog Meta */
+/* development Meta */
 .news-single{
 	background:#fff;
 }
@@ -2377,7 +2377,7 @@ body{
 	font-size: 15px;
 	position: relative;
 }
-.news-single .blog-bottom {
+.news-single .development-bottom {
 	overflow: hidden;
 }
 /* Social Share */
@@ -2441,8 +2441,8 @@ body{
 	background:#1A76D1;
 	border-color:transparent;
 }
-/* Blog Comments */
-.news-single .blog-comments {
+/* development Comments */
+.news-single .development-comments {
 	margin-top: 30px;
 	background: transparent;
 	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
@@ -2451,14 +2451,14 @@ body{
 	border-radius: 8px;
 	padding: 30px;
 }
-.news-single .blog-comments h2 {
+.news-single .development-comments h2 {
 	text-align: left;
 	text-transform: capitalize;
 	font-size: 18px;
 	color: #252525;
 	margin-bottom: 20px;
 }
-.news-single .blog-comments h4 span{
+.news-single .development-comments h4 span{
 	float:right;
 }
 .news-single .single-comments {
@@ -2697,7 +2697,7 @@ body{
 	transition:all 0.3s ease 0s;
 }
 /*===================
-	End Blog CSS
+	End development CSS
 =====================*/
 
 /*==========================
@@ -4172,4 +4172,21 @@ body{
 
 .rounded {
 	border-radius: .25rem !important;
+}
+
+.quality {
+	background-color: #f9f9f9;
+}
+
+
+@media screen and (max-width: 992px) { 
+	.project {
+		margin-bottom: 900px;
+	}
+}
+
+@media screen and (max-width: 450px) { 
+	.project {
+		margin-bottom: 200px;
+	}
 }
