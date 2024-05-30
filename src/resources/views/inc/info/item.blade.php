@@ -1,0 +1,1 @@
+<li><i class="fa fa-caret-right"></i>{{ $text }}</li>

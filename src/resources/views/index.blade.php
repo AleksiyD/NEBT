@@ -26,6 +26,110 @@
     @endforeach
 @endcomponent
 @include('inc.about-us.section')
+@include('inc.info.services')
+@include('inc.info.quality')
+@include('inc.info.project')
+@component('inc.development.section')
+    @foreach([
+        [
+          'img' => 'img/content/development/1.png',
+          'text' => 'Рецептура печеночного паштета с пребиотическим действием для целевой группы потребителей',
+          'href' => 'https://new.fips.ru/registers-doc-view/fips_servlet?DB=RUPAT&DocNumber=2787030&TypeFile=html'
+        ],
+        [
+          'img' => 'img/content/development/2.png',
+          'text' => 'Рецептура колбасы вареной функциональной обогащенной создана комбинированием мясного, растительного сырья и функциональных ингредиентов',
+          'href' => 'https://new.fips.ru/registers-doc-view/fips_servlet?DB=RUPAT&DocNumber=2797405&TypeFile=html'
+        ],
+        [
+          'img' => 'img/content/development/3.png',
+          'text' => 'Рецептура мясорастительного полуфабриката, имеющего высокий уровень сбалансированности по незаменимым аминокислотам',
+          'href' => 'https://new.fips.ru/registers-doc-view/fips_servlet?DB=RUPAT&DocNumber=2757319&TypeFile=html'
+        ],
+        [
+          'img' => 'img/content/development/4.png',
+          'text' => 'Рецептура мясорастительного рубленного полуфабриката с высокой биологической ценностью, обладающего пребиотическим действием',
+          'href' => 'https://new.fips.ru/registers-doc-view/fips_servlet?DB=RUPAT&DocNumber=2774419&TypeFile=html'
+        ]
+    ] as $content)
+        @include('inc.development.card', [
+            'img' => $content['img'],
+            'text' => $content['text'],
+            'href' => $content['href']
+        ])
+    @endforeach
+@endcomponent
+@component('inc.research.section')
+    @foreach([
+        [
+          'title' => 'Современные методы получения стабильных эмульсий в технологии производства мясопродуктов',
+          'text' => 'Материалы VII (64-й) ежегодной НПК «Университетская наука – региону». Биоразнообразие, биоресурсы, вопросы биотехнологии и здоровье населения Северо-Кавказского региона. – Ставрополь: Изд-во СКФУ, 2019. – 400 с.',
+          'img' => 'img/content/research/1.png',
+          'href' => 'https://www.elibrary.ru/item.asp?id=38303068'
+        ],
+        [
+          'title' => 'Оценка способов получения и использования водожировых эмульсий при производстве мясных изделий ',
+          'text' => 'Сборник статей по материалам ежегодной всероссийской (национальной) конференции для студентов, аспирантов и молодых ученых «Перспективные разработки молодых ученых в области производства и переработки сельскохозяйственной продукции». - Издательство «АРГУС» (Ставрополь),  2019. – 354 с.',
+          'img' => 'img/content/research/2.png',
+          'href' => 'https://www.elibrary.ru/item.asp?id=41580260'
+        ],
+        [
+          'title' => 'Перспективы применения метода лиофилизации в производстве мясного, молочного сырья, фруктов и овощей',
+          'text' => 'Сборник научных статей одиннадцатой международной научной конференции «Приоритетные направления инновационной деятельности в промышленности»,Часть 1. – Казань: ООО «Конверт», 2020. – 272 с.',
+          'img' => 'img/content/research/3.png',
+          'href' => 'https://www.elibrary.ru/item.asp?id=44569750'
+        ],
+        [
+          'title' => 'Зарубежный опыт и перспективы использования ультразвуковой обработки в пищевой промышленности',
+          'text' => 'Материалы Международной научно-практической конференции «Инновационное развитие аграрно-пищевых технологий» / Под общ. ред. акад. РАН Горлова И.Ф. – Волгоград: ООО «СФЕРА», 2021. – 255 с.',
+          'img' => 'img/content/research/4.png',
+          'href' => 'https://www.elibrary.ru/item.asp?id=46601183'
+        ],
+        [
+          'title' => 'Meat products for the fudnet market',
+          'text' => 'ВАК 2163 в редакции от 27.04.2022, включен с (28.12.2018) Современная наука и инновации. – 2021. – №4 (36). – С. 118-128.',
+          'img' => 'img/content/research/5.png',
+          'href' => 'https://www.elibrary.ru/item.asp?id=48561082'
+        ],
+        [
+          'title' => 'Development of new types of minced meat products for preventive and personalized nutrition',
+          'text' => '(Scopus) Lecture Notes in Networks and Systemsthis link is disabled. –2022. – 408 LNNS. – P. 18-27.',
+          'img' => 'img/content/research/6.png',
+          'href' => 'https://www.elibrary.ru/item.asp?id=48191027'
+        ],
+        [
+          'title' => 'evelopment of new types of functional meat and vegetable semi-finished products with prebiotic effect',
+          'text' => 'Modern Science and Innovations. – 2022. – No. 3(39). – P. 119-127.',
+          'img' => 'img/content/research/7.png',
+          'href' => 'https://www.elibrary.ru/item.asp?id=50277038'
+        ],
+        [
+          'title' => 'Разработка рецептуры функционального печеночного паштета с пребиотическим действием',
+          'text' => '(ВАК 2386 в редакции от 20.12.2022, включен с 28.12.2018). Технология и товароведение инновационных пищевых продуктов.  – ОГУ им. И.С. Тургенева. – 2022. – № 6 (77). – С. 32-37.',
+          'img' => 'img/content/research/8.png',
+          'href' => 'https://www.elibrary.ru/item.asp?id=50093342'
+        ],
+        [
+          'title' => 'Нутриентносбалансированные мясорастительные продукты с молочной мелассой',
+          'text' => 'Современные проблемы техники и технологии пищевых производств. ХХII международная научно-практическая конференция, Алтайский государственный технический университет им. И.И. Ползунова. – Барнаул: Изд-во Алтайский государственный технический университет им. И.И. Ползунова, 2022. – 247 с.  ',
+          'img' => 'img/content/research/9.png',
+          'href' => 'https://www.elibrary.ru/item.asp?id=50406660'
+        ],
+        [
+          'title' => 'Разработка рецептур продуктов питания с высокой пищевой и биологической ценностью',
+          'text' => 'Материалы X (67-й) ежегодной научно-практической конференции «Университетская наука – региону». Биоразнообразие, биоресурсы, вопросы биотехнологии и здоровье населения Северо-Кавказского региона. – Ставрополь: Изд-во СКФУ, 2023. – 432 с.',
+          'img' => 'img/content/research/10.png',
+          'href' => 'https://www.elibrary.ru/item.asp?id=54400623'
+        ]
+    ] as $content)
+        @include('inc.research.card', [
+            'title' => $content['title'],
+            'text' => $content['text'],
+            'img' => $content['img'],
+            'href' => $content['href']
+        ])
+    @endforeach
+@endcomponent
 
 @include('layouts.temp')
 
