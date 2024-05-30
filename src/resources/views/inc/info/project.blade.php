@@ -34,11 +34,7 @@
                 'col' => 12
             ]
         ] as $content)
-            @include('inc.info.image', [
-                'img' => $content['img'],
-                'alt' => $content['alt'],
-                'col' => $content['col']
-            ])
+            @include('inc.info.image', $content)
         @endforeach
     @endcomponent
 @endcomponent

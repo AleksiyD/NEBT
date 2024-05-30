@@ -44,9 +44,6 @@
             'text' => 'Победитель конкурса «Студенческий стартап» (Фонд содействия инновациям, 2023г.) '
         ]
     ] as $content)
-        @include('inc.about-us.slider-item', [
-            'img' => $content['img'],
-            'text' => $content['text']
-        ])
+        @include('inc.about-us.slider-item', $content)
     @endforeach
 @endcomponent
