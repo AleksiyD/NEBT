@@ -98,7 +98,7 @@
           'href' => 'https://www.elibrary.ru/item.asp?id=48191027'
         ],
         [
-          'title' => 'evelopment of new types of functional meat and vegetable semi-finished products with prebiotic effect',
+          'title' => 'Development of new types of functional meat and vegetable semi-finished products with prebiotic effect',
           'text' => 'Modern Science and Innovations. – 2022. – No. 3(39). – P. 119-127.',
           'img' => 'img/content/research/7.png',
           'href' => 'https://www.elibrary.ru/item.asp?id=50277038'

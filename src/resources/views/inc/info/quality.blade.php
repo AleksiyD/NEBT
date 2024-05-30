@@ -1,5 +1,5 @@
 @component('inc.info.section', [
-    'header' => 'Качество',
+    'header' => 'КАЧЕСТВО',
 ])
     @component('inc.info.list')
         @component('inc.info.items-area')
