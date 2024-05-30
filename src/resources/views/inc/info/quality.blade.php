@@ -16,7 +16,8 @@
             @endforeach
         @endcomponent
     @endcomponent
-    @component('inc.info.images')
+
+    <!-- @component('inc.info.images')
         @foreach([
             [
                 'img' => 'img/content/quality/1.png',
@@ -29,5 +30,19 @@
         ] as $content)
             @include('inc.info.image', $content)
         @endforeach
-    @endcomponent
+    @endcomponent -->
+
+    @include('inc.info.carousel', [
+        'id' => 'quality',
+        'images' => [
+            [
+                'img' => 'img/content/quality/1.png',
+                'alt' => 'image'
+            ],
+            [
+                'img' => 'img/content/quality/2.png',
+                'alt' => 'image'
+            ]
+        ]
+    ])
 @endcomponent

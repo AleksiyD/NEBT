@@ -4179,7 +4179,7 @@ body{
 }
 
 
-@media screen and (max-width: 992px) { 
+/* @media screen and (max-width: 992px) { 
 	.project {
 		margin-bottom: 900px;
 	}
@@ -4189,4 +4189,4 @@ body{
 	.project {
 		margin-bottom: 200px;
 	}
-}
+} */
