@@ -12,6 +12,7 @@
 @include('inc.development.development')
 @include('inc.research.research')
 @include('inc.mass-media.mass-media')
+@include('inc.support.section')
 
 @include('layouts.temp')
 
