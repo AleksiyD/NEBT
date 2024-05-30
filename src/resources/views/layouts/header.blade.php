@@ -21,7 +21,10 @@
                         <div class="main-menu">
                             <nav class="navigation">
                                 <ul class="nav menu">
-                                    <li><a href="/">Главная</a></li>
+                                    <li><a href="#about-us">О НАС</a></li>
+                                    <li><a href="#mass-media">СМИ О НАС</a></li>
+                                    <li><a href="#project">УНИКАЛЬНОСТЬ ПРОЕКТА</a></li>
+                                    <li><a href="#footer">КОНТАКТЫ</a></li>
                                 </ul>
                             </nav>
                         </div>

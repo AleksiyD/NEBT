@@ -1,4 +1,4 @@
-<section class="about-us section">
+<section id="about-us" class="about-us section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

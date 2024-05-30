@@ -1,4 +1,4 @@
-<section class="about-us-more section {{ $class ?? '' }}">
+<section id="{{ $class ?? '' }}" class="about-us-more section {{ $class ?? '' }}">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
