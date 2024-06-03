@@ -8,7 +8,9 @@
                             <h1 class="text-nowrap text-light">ООО «НАНОЭЛЕКТРОБИОТЕХНОЛОГИИ»</h1>
                             <p class="font-weight-bold text-light h5">Ваш надежный партнер по созданию инновационных решений в технологиях пищевой промышленности</p>
                             <div class="button">
-                                <a href="#" class="btn">Обратная связь</a>
+                            @component('layouts.utils.modal.btn', ['id' => 'modal-feedback-form'])
+                                Обратная связь
+                            @endcomponent
                                 <a href="#footer" class="btn primary">Контакты</a>
                             </div>
                         </div>

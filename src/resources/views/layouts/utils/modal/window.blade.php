@@ -2,9 +2,11 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
+        <div class="d-flex flex-column">
+          <h4 class="modal-title">{{ $title }}</h4>
+          <p>{{ $desc ?? '' }}</p>
+        </div>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">{{ $title }}</h4>
-        <p>{{ $desc ?? '' }}</p>
       </div>
       <div class="modal-body">
         {{ $slot }}

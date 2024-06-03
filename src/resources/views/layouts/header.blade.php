@@ -32,7 +32,9 @@
                     </div>
                     <div class="col-lg-2 col-12">
                         <div class="get-quote">
-                            <a href="" class="btn">Обратная связь</a>
+                        @component('layouts.utils.modal.btn', ['id' => 'modal-feedback-form'])
+                            Обратная связь
+                        @endcomponent
                         </div>
                     </div>
                 </div>

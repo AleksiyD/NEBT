@@ -11,7 +11,7 @@
                 <b>{{$client->full_name}}</b>, Ваш запрос успешно отправлен. На Ваш почтовый адрес ({{$client->email}}) отправлено письмо для подтверждения, ссылка в котором действительна 24 часа.
             </p>
             <div>
-                <a class="btn btn-primary" href="/">На главную</a>
+                <a class="btn btn-primary text-light" href="/">На главную</a>
             </div>
         </div>
 	</div>
