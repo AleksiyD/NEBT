@@ -1919,7 +1919,7 @@ body{
 }
 .development .single-news .news-content p {
 	font-weight: 400;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 	font-size: 13px;
 	letter-spacing: 0px;
 	line-height: 23px;
