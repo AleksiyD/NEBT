@@ -4,7 +4,9 @@
           <div class="modal-content">
             <div class="modal-header">
               <h5 x-text="'Запрос киента: ' + $wire.request?.client?.full_name + ' от ' + $wire.request.created_at" class="modal-title"></h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">×</span>
+              </button>
             </div>
             <div class="modal-body p-0">
               <template x-for="item in request">

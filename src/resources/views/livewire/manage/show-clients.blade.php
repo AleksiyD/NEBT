@@ -17,7 +17,7 @@
     ]])
 
     <div class="col-md-2">
-        <button wire:click="clear" class="btn btn-warning py-0 mt-1">Очистить</button>
+        <button wire:click="clear" class="btn btn-primary py-0 mt-1">Очистить</button>
     </div>
     @endcomponent
 
@@ -59,7 +59,7 @@
                     </a>
                 </td>
                 <td scope="col">
-                    <span class="badge bg-warning">{{ $client->requests_count }}</span>
+                    <span class="badge bg-primary text-light">{{ $client->requests_count }}</span>
                 </td>
             </tr>
             @endforeach

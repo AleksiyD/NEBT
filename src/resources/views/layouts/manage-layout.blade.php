@@ -18,6 +18,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/fa.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/select2.min.css') }}">
     @livewireStyles
 </head>
