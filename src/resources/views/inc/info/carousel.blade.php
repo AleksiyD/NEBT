@@ -1,5 +1,5 @@
-<div class="d-flex justify-content-center w-100 m-2">
-    <div class="col-6">
+<div class="d-flex justify-content-center w-100 m-4">
+    <div class="col-md-6">
         <div class="rounded shadow">
             <div id="{{$id}}-carousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
