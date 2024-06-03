@@ -5,22 +5,25 @@
                 <div class="content">
                     <h2>ОСУЩЕСТВЛЯЕМ СВОЮ ДЕЯТЕЛЬНОСТЬ ПРИ ПОДДЕРЖКЕ</h2>
                     <p>Проект выполнен при поддержке «Фонда содействия инновациям» в рамках федерального проекта «Платформа университетского технологического предпринимательства»</p>
-                    <div class="row d-flex -justify-content-between align-items-center">
+                    <div class="row d-flex justify-content-between align-items-center">
                         @foreach([
                             [
                                 'img' => 'img/content/support/1.png',
                                 'alt' => 'image',
-                                'url' => 'https://ncfu.ru'
+                                'url' => 'https://ncfu.ru',
+                                'text' => 'Северо-Кавказский федеральный университет'
                             ],
                             [
                                 'img' => 'img/content/support/2.png',
                                 'alt' => 'image',
-                                'url' => 'https://fasie.ru'
+                                'url' => 'https://fasie.ru',
+                                'text' => 'Фонд содействия инновациям'
                             ],
                             [
                                 'img' => 'img/content/support/3.png',
                                 'alt' => 'image',
-                                'url' => 'https://univertechpred.ru'
+                                'url' => 'https://univertechpred.ru',
+                                'text' => 'Платформа университетского технологического предпринимательства'
                             ]
                         ] as $content)
                             @include('inc.support.img', $content)
