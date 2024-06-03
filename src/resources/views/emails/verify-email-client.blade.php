@@ -7,7 +7,7 @@
 	</p>
 </div>
 
-<table border="0" cellpadding="0" cellspacing="0" style="background-color: #FDBE34; width: 100%; border-collapse: collapse;">
+<table border="0" cellpadding="0" cellspacing="0" style="background-color: #1A76D1; width: 100%; border-collapse: collapse;">
 	<tbody>
 		<tr>
 			<td style="border-collapse: collapse; border-spacing: 0; font-family: ‘Trebuchet MS’, sans-serif; font-size: 18px; text-align: center; color: #FFFFFF; padding: 13px;">
